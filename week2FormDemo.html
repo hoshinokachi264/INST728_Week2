@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Form Demo</title>
+</head>
+
+<body>
+    <fieldset>
+        <form name="ThankYouForm" method="post" action="thankyou.html">
+            <legend class="legend">
+                Personal Information
+            </legend><br>
+            <div>
+                <label for="Name">Name</label><br>
+                <input type="text" placeholder="First">
+                <input type="text" placeholder="Last">
+            </div>
+            <br>
+            <div>
+                <label for="Birthday">Date of Birth</label><br>
+                <input type="date" value="">
+            </div>
+            <br>
+            <div>
+                <label for="Gender">Gender</label><br>
+                <input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+                <input type="radio" name="Gender">Other
+            </div>
+            <br>
+            <div>
+                <label for="Address">Address</label><br>
+                <input type="text" placeholder="Street"><br>
+                <input type="text" placeholder="Line2"><br>
+                <input type="text" placeholder="City">
+                <input type="text" placeholder="State"><br>
+                <input type="text" placeholder="Zipcode">
+                <select class="SelectOptions">
+                    <option value="country">Select Country</option>
+                    <option value="country">USA</option>
+                    <option value="country">Canada</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="PhoneNumber">Phone Number</label><br>
+                <input type="tel" placeholder="Home Phone">
+                <input type="tel" placeholder="Cell Phone">
+            </div>
+            <br>
+            <div>
+                <label for="Email">Email</label><br>
+                <input type="email" placeholder="YourEmail@gmail.com">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </fieldset>
+</body>
+
+
+</html>
