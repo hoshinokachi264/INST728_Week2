@@ -2,45 +2,52 @@
 <html>
 
 <head>
+    <title>Shelagh Cully Assignment2</title>
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <title>Shelagh Cully Assignment2</title>
+    <link href="resources/css/styles.css" type="text/css" rel="stylesheet">
 </head>
 
-    <body>
+<body>
 
-        <table>
-            <form name="ThankYouForm" action="thankyou.html">
-                <tr>
-                    <th>Feedback</th>
-                </tr>
-                <tr>
-                    <td>CaseID:</td>
-                    <td><input type="text"></td>
+    <table>
+        <form name="ThankYouForm" action="thankyou.html">
+            <tr>
+                <td><strong>FEEDBACK</strong></td>
+            </tr>
+            <tr>
+                <td class="col1">CaseID:</td>
+                <td class="col2"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="col1">Subject:*</td>
+                <td class="col2 comment"><input type="text" class="subject"></td>
+            </tr>
+            <tr>
+                <td class="col1">Comment:</td>
+                <td class="col2"><textarea class="comment"></textarea>
+            </tr>
+            <br>
+            <tr>
+                <td class="col1 importance">Importance:</td>
+                <td class="col2"><input type="radio" name="importance">High</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="col2">
+                    <input type="radio" name="importance">Medium</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="col2">
+                    <input type="radio" name="importance">Low<br>
+                    <input type="submit" name="submit" value="Submit">
+                </td>
+            </tr>
+        </form>
+    </table>
 
-                </tr>
-                <tr>
-                    <td>Subject:*</td>
-                    <td><input type="text" class="subject"></td>
-                </tr>
-                <tr>
-                    <td>Comment:</td>
-                    <td><input type="text" class="subject"></td>
-
-                </tr>
-                <tr>
-                    <td>Importance</td>
-                    <td><input type="radio" name="Gender">High<br>
-                        <input type="radio" name="Gender">Medium<br>
-                        <input type="radio" name="Gender">Low<br>
-                        <input type="submit" name="submit" value="Submit">
-                    </td>
-                </tr>
-            </form>
-        </table>
-
-    </body>
-
+</body>
 
 </html>

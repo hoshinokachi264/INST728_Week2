@@ -1,0 +1,21 @@
+body {
+    font-family: arial, serif;
+}
+table {
+    background-color: #eae5db;
+    padding: 10px;
+    
+}
+.col1 {
+    padding-right: 50px;
+    border: 1px solid;
+}
+.col2 {
+    width: 90%;
+}
+.col2 .comment {
+    height: 70px;
+}
+.col1 .importance {
+    text-align: start;
+}
